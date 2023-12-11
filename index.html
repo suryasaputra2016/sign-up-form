@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="left">
+        <h1>Sign Up Form</h1>
+    </div>
+
+    <div class="right">
+        <p>This is not a real online service! You know you need something like this in your life
+             to help you realize your deepest dreams. Sign up now to get started.</p>
+        
+             <p>You know you want to.</p>
+
+        <form action="" method="GET">
+            <legend>Let's do this!</legend>
+
+            <ul>
+                <li>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required placeholder="John/Jane">
+                </li>
+                <li>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required placeholder="Smith">
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="smith@email.com">
+                </li>
+                <li>
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="text" id="phone-number" pattern="[0-9]{3}-[0-9]{4}" placeholder="e.g. 123-4567">
+                </li>
+                <li>
+                    <label for="passowrd">Password:</label>
+                    <input type="password" id="password" name="password" required minlength="9" placeholder="minimum 9 characters">
+                </li>
+                <li>
+                    <label for="confirm-passowrd">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required minlength="9" placeholder="minimum 9 characters">
+                </li>
+                <li><button type="submit"><p>Sign up</p></button></li>
+            </ul>
+        </form>
+
+        If you've already had an account <a href="#">sign in</a>.
+    </div>
+</body>
+</html>

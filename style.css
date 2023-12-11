@@ -1,0 +1,101 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+
+    margin: 10%;
+
+    display: flex;
+
+    background-color: rgb(220, 193, 220);
+}
+
+.left {
+    flex-grow: 1;
+    flex-basis: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url(./images/mpiwnicki-unsplash.jpg);
+    background-size: 120%;
+    background-position: 50% 50%;
+
+    margin: 5%
+}
+
+h1 {
+    background-color: rgba(255,255,255,0.5);
+    padding: 1em;
+    border-radius: 20px;
+    color: rgb(64, 1, 64);
+}
+
+.right {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 5%;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%
+}
+
+label {
+    width: 30%;
+}
+
+input {
+    flex-grow: 1;
+    height: 1.8rem;
+    border-radius: 4px;
+    border-width: 0;
+}
+
+input:focus {
+    outline-color: darkblue;
+    background-color: rgb(233, 209, 255);
+}
+
+input:invalid {
+    border: red solid 3px;
+    outline: none;
+    background-color: rgb(255, 217, 217);
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    padding: 0.8rem 2rem;
+
+    background-color: rgb(252, 230, 252);
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: blueviolet;
+    border: none;
+    border-radius: 4px;
+}
+
+button p {
+    margin: 0;
+}
